@@ -86,7 +86,7 @@ var locations = [
 
     var oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "http://fixmystuff.nl/gas/data.json");
+    oReq.open("GET", "https://pierman1.github.io/gas-france-api/api/data.json");
     oReq.send();
 
     var map = new google.maps.Map(document.getElementById('map'), {
